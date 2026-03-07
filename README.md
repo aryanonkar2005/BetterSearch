@@ -1,7 +1,7 @@
 <h1 align="center">BetterSearch</h1>
 
 <p align="center">
-An LLM-driven search platform designed to extend the capabilities and address the limitations of conventional search systems being used by most e-commerce and property listing sites, without significantly increasing query latency.
+An LLM-driven search platform designed to extend the capabilities and address the limitations of conventional search systems being used by most e-commerce and property listing sites.
 </p>
 <p align="center">
 BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform spatial analysis and deliver more relevant results while maintaining low latency
