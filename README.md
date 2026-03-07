@@ -23,7 +23,7 @@ Examples of queries BetterSearch can resolve:
 1. Show all apartments inside the area I’ve marked on the attached map. Rank them based on proximity to the red dot marked on the map. All apartments must have a marble island in the kitchen.
 2. List rental properties under ₹20,000 in Hisar that are within 15 minutes of this building (5PCG+MW Hisar, Haryana), within 1 km of a hospital, but away from highways and busy roads. Rank them based on proximity to the building.
 3. मुझे एक dark green टी-शर्ट दिखाओ जिस पर white color की ink से “Wanted” लिखा हो।
-4. Find a 5000 sq. ft. area anywhere in India for building a hospital where, within a 30-minute isochrone, the population of citizens earning ₹12 LPA and above is high and competition is low.
+4. Find a 5000 sq. ft. area anywhere in Haryana (but listed on this property listing site) for building a hospital where, within a 30-minute isochrone, the population of citizens earning ₹12 LPA and above is high and competition is low.
 <img width="1498" height="916" alt="Screenshot 2026-03-06 164915" src="https://github.com/user-attachments/assets/8e253f52-be5e-47b3-95bb-45736d917816" />
 This image proves that this t-shirt is available on Flipkart.
 <img width="1900" height="801" alt="Screenshot 2026-03-06 162826" src="https://github.com/user-attachments/assets/5846b6ff-69b8-4060-9d12-2b205a1c5e4c" />
