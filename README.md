@@ -1,13 +1,13 @@
 <h1 align="center">BetterSearch</h1>
 
 <p align="center">
-An LLM-driven search platform designed to extend the capabilities and address the limitations of conventional search systems being used by most e-commerce and property listing sites.
+An LLM-driven search platform that extends the capabilities and addresses the limitations of conventional search systems being used by most e-commerce and property listing sites.
 </p>
 <p align="center">
-BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform spatial analysis and deliver more relevant results while maintaining low latency
+BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency
 </p>
 
-<h2>Overview</h2>
+<h2>Features</h2>
 
 <p>
 Since it uses LLMs behind the scenes it can understand human language and intent, and has access to up-to-date information from the web that it might use to answer search queries. It can perform GIS operations and ArcGIS-style site suitability analysis to resolve complex spatial queries. It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding models, ANN search, ranking algorithms etc. It enables users to search by describing a product’s visual features, ensuring relevant results even when sellers haven’t included those details in the product description. It introduces multiple clever optimizations to keep the latency low.
@@ -46,7 +46,11 @@ Search engines on property listing sites can typically answer only simple querie
 
 <li>मुझे एक dark green टी-शर्ट दिखाओ जिस पर white color की ink से “Wanted” लिखा हो।</li>
 
-<li>Find a 5000 sq. ft. area anywhere in Haryana (listed on this property listing site) for building a hospital where, within a 30-minute isochrone, the population of citizens earning ₹12 LPA and above is high and competition should be low.</li>
+<li>Find a 5,000–8,000 sq. ft. commercial property in Haryana suitable for opening a supermarket, where within a 10-minute drive-time isochrone:
+ <ol>
+ <li>The population density exceeds 10,000 people
+ <li>The average household income is above ₹8 LPA
+ <li>There are fewer than 2 large supermarkets or hypermarkets
 </ol>
 
 <p>This image proves that this t-shirt is available on Flipkart.</p>
