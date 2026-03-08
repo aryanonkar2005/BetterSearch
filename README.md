@@ -10,26 +10,16 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 <h2>Key Capabilities</h2>
 
 </p>
-
-- **Natural Language & Intent Understanding**
   - It can understand human language and intent. It can provide relevant results for long and complex queries that traditional search engines fail to resolve.
   - It can perform long reasoning, calculations and script execution if necessary to answer the long and complex query.
   - It also has access to up-to-date information from the web that it might use to answer search queries.
-
-- **Spatial Intelligence**
   - Can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay, network analysis, and raster/vector processing.
   - Can conduct site suitability analysis using techniques like weighted overlay and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
   - It is connected to spatial data related to demographics, crime, satellite imagery, flight routes, business coordinates and details, infrastructure layers (road, train netowrks) etc.
   - It has access to dynamic real-time data streams such as traffic conditions, weather updates, and Air Quality Index (AQI), enabling timely spatial decision-making and situational awareness.
-
-- **Improved Search Architecture**
   - It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding based candidate retrieval, ranking models etc.
-
-- **Visual Feature-Based Product Search**
   - It enables users to search by describing a product’s visual features ensuring relevant results even when sellers haven’t included those details in the product description.
   - It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
-
-- **Performance Optimizations**
   - It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex geoprocessing operations are handled without using LLMs.
   - It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, albeit with slightly higher latency.
 
