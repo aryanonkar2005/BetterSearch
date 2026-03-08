@@ -7,33 +7,31 @@ An LLM-driven search platform that extends the capabilities and addresses the li
 BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency
 </p>
 
-<h2>Key Capabilities</h2>
+<h2>Key Features</h2>
 
 </p>
 
 1. It can understand human language and intent. It can provide relevant results for long and complex queries that traditional search engines fail to resolve.
 
-2. It can perform long reasoning, calculations and script execution if necessary to answer the long and complex query.
+2. It can perform long reasoning, calculations and script execution if necessary to answer the long and complex query. It also has access to up-to-date information from the web that it might use to answer search queries.
 
-3. It also has access to up-to-date information from the web that it might use to answer search queries.
+3. It can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay, network analysis, and raster/vector processing.
 
-4. It can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay, network analysis, and raster/vector processing.
+4. It can conduct site suitability analysis using techniques like weighted overlay and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
 
-5. It can conduct site suitability analysis using techniques like weighted overlay and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
+5. It is connected to spatial data related to demographics, crime, satellite imagery, flight routes, business coordinates and details, infrastructure layers (road, train netowrks) etc.
 
-6. It is connected to spatial data related to demographics, crime, satellite imagery, flight routes, business coordinates and details, infrastructure layers (road, train netowrks) etc.
+6. It has access to dynamic real-time data streams such as traffic conditions, weather updates, and Air Quality Index (AQI), enabling timely spatial decision-making and situational awareness.
 
-7. It has access to dynamic real-time data streams such as traffic conditions, weather updates, and Air Quality Index (AQI), enabling timely spatial decision-making and situational awareness.
+7. It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding based candidate retrieval, ranking models etc.
 
-8. It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding based candidate retrieval, ranking models etc.
+8. It enables users to search by describing a product’s visual features ensuring relevant results even when sellers haven’t included those details in the product description.
 
-9. It enables users to search by describing a product’s visual features ensuring relevant results even when sellers haven’t included those details in the product description.
+9. It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
 
-10. It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
+10. It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex geoprocessing operations are handled without using LLMs.
 
-11. It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex geoprocessing operations are handled without using LLMs.
-
-12. It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, albeit with slightly higher latency.
+11. It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, with slightly higher latency.
 </p>
 
 <h2>Limitations of Conventional Search Engines</h2>
