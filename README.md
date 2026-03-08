@@ -12,7 +12,8 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 </p>
 
 - **Natural Language & Intent Understanding**
-  - Since it uses LLMs behind the scenes it can understand human language and intent.
+  - It can understand human language and intent. It can provide relevant results for long and complex queries that traditional search engines fail to resolve.
+  - It can perform long reasoning and calculations if necessary to answer the long and complex query.
   - It also has access to up-to-date information from the web that it might use to answer search queries.
 
 - **Spatial Intelligence**
@@ -29,7 +30,9 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
   - It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
 
 - **Performance Optimizations**
-  - It introduces multiple optimizations to keep the latency low. Simple queries that do not require reasoning, world knowledge, web access, or complex GIS operations won’t use LLMs.
+  - It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries without reasoning, world knowledge, web access, or complex GIS operations are handled without using LLMs.
+  - It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, albeit with slightly higher latency.
+
 </p>
 
 <h2>Limitations of Conventional Search Engines</h2>
