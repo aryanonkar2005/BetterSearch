@@ -10,6 +10,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 <h2>Key Capabilities</h2>
 
 </p>
+
 1. It can understand human language and intent. It can provide relevant results for long and complex queries that traditional search engines fail to resolve.
 
 2. It can perform long reasoning, calculations and script execution if necessary to answer the long and complex query.
