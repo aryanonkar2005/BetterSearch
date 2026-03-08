@@ -33,7 +33,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 
 11. It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, with slightly higher latency.
 
-12. It allows users to attach images and files with search query.   
+12. It allows users to attach images and files along with their search query.   
 </p>
 
 <h2>Limitations of Conventional Search Engines</h2>
