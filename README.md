@@ -65,11 +65,11 @@ Search engines on property listing sites can typically answer only simple querie
 
 <li>मुझे एक dark green टी-शर्ट दिखाओ जिस पर white color की ink से “Wanted” लिखा हो।</li>
 
-<li>Find a 5,000–8,000 sq. ft. commercial property in Haryana suitable for opening a supermarket, where within a 10-minute drive-time isochrone:
+<li>Find a 5,000–8,000 sq. ft. commercial property in Haryana that is listed on this property listing site and is suitable for opening a supermarket. Within a 10-minute drive-time isochrone:
  <ol>
- <li>The population density exceeds 10,000 people
- <li>The average household income is above ₹8 LPA
- <li>There are fewer than 2 large supermarkets
+ <li>The population density should exceed 10,000 people
+ <li>The average household income should be above ₹8 LPA
+ <li>There should be fewer than 2 large supermarkets.
 </ol>
 
 <p>This image proves that this t-shirt is available on Flipkart.</p>
