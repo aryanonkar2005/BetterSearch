@@ -30,7 +30,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
   - It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
 
 - **Performance Optimizations**
-  - It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries without reasoning, world knowledge, web access, or complex GIS operations are handled without using LLMs.
+  - It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex GIS operations are handled without using LLMs.
   - It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, albeit with slightly higher latency.
 
 </p>
