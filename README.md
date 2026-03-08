@@ -30,7 +30,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
   - It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
 
 - **Performance Optimizations**
-  - It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex GIS operations are handled without using LLMs.
+  - It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex geoprocessing operations are handled without using LLMs.
   - It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, albeit with slightly higher latency.
 
 </p>
@@ -52,7 +52,7 @@ The image search feature offered by ecommerce sites can only find products that 
 </p>
 
 <p>
-Search engines on property listing sites can typically answer only simple queries like “2 BHK in Hisar” or “Rental properties near the airport.” Resolving these queries does not require complex spatial reasoning or knowledge of demographics, geography, traffic, AQI, etc. Conventional search engines can neither perform GIS operations on spatial data nor conduct ArcGIS-style site suitability analysis to resolve complex spatial queries like the ones given below.
+Search engines on property listing sites can typically answer only simple queries like “2 BHK in Hisar” or “Rental properties near the airport.” Resolving these queries does not require complex spatial reasoning or knowledge of demographics, geography, traffic, AQI, etc. Conventional search engines can neither perform geoprocessing operations on spatial data nor conduct site suitability analysis to resolve complex spatial queries like the ones given below.
 </p>
 
 <h2>Examples of Queries BetterSearch Can Resolve</h2>
