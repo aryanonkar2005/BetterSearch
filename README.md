@@ -32,6 +32,8 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 10. It introduces multiple optimizations to keep the latency low.  It automatically detects whether a query requires LLMs, ensuring that simple queries that do not require reasoning, world knowledge, web access, or complex geoprocessing operations are handled without using LLMs.
 
 11. It also allows users to choose between a faster mode that avoids LLMs and a more advanced mode that leverages LLMs with spatial analysis to deliver more relevant results, with slightly higher latency.
+
+12. It allows users to attach images and files with search query.   
 </p>
 
 <h2>Limitations of Conventional Search Engines</h2>
@@ -41,7 +43,7 @@ Conventional search engines that rely on ANN algorithms and models such as CLIP 
 </p>
 
 <p>
-Image embeddings behave similarly: two objects that look alike may represent completely different products. For instance, a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar. Multimodal models such as CLIP align images and text by similarity, but they still lack deeper reasoning. To reach the desired product Embedding Models and Approximate Nearest Neighbour algorithms aren't enough as they don't have reasoning capabilities.
+Image embeddings behave similarly: two objects that look alike could be two completely different products. For instance, a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar. Multimodal models such as CLIP align images and text by similarity, but they still lack deeper reasoning. To reach the desired product Embedding Models and Approximate Nearest Neighbour algorithms aren't enough as they don't have reasoning capabilities.
 </p>
 
 <h2>Problems with Conventional Search Engines that BetterSearch Addresses</h2>
