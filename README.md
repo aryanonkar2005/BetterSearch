@@ -13,7 +13,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 
 - **Natural Language & Intent Understanding**
   - It can understand human language and intent. It can provide relevant results for long and complex queries that traditional search engines fail to resolve.
-  - It can perform long reasoning and calculations if necessary to answer the long and complex query.
+  - It can perform long reasoning, calculations and script execution if necessary to answer the long and complex query.
   - It also has access to up-to-date information from the web that it might use to answer search queries.
 
 - **Spatial Intelligence**
