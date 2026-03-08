@@ -60,7 +60,8 @@ Search engines on property listing sites can typically answer only simple querie
 </p>
 
 <p>
-The search results should include the above t-shirt. However, since Flipkart’s search engine cannot understand human language the way LLMs can, and it also lacks the ability to interpret the visual content of product images, it fails to display relevant results.
+Flipkart failed to show the above t-shirt in search results and gave totally irrelevant results because its search system cannot properly understand natural human language. Additionally, sellers rarely describe clothing designs in detail, and Flipkart lacks the capability to interpret product images to match such queries.
+ 
 </p>
 
 <p align="center">
