@@ -12,12 +12,12 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 </p>
 
 - **Natural Language & Intent Understanding**
-  - Since it uses LLMs behind the scenes it can understand human language and intent
-  - Has access to up-to-date information from the web that it might use to answer search queries
+  - Since it uses LLMs behind the scenes it can understand human language and intent.
+  - It also has access to up-to-date information from the web that it might use to answer search queries.
 
 - **Spatial Intelligence**
-  - Performs advanced spatial analysis and geoprocessing operations such as buffering, overlay, network analysis, and raster/vector processing.
-  - Conducts site suitability analysis using techniques like weighted overlay and Multi-Criteria Decision Making (MCDM) to evaluate and rank potential locations based on multiple spatial factors and constraints.
+  - Can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay, network analysis, and raster/vector processing.
+  - Can conduct site suitability analysis using techniques like weighted overlay and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
   - It is connected to spatial data related to demographics, crime, satellite imagery, flight routes, business coordinates and details, infrastructure layers (road, train netowrks) etc.
   - It has access to dynamic real-time data streams such as traffic conditions, weather updates, and Air Quality Index (AQI), enabling timely spatial decision-making and situational awareness.
 
@@ -29,11 +29,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
   - It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
 
 - **Performance Optimizations**
-  - It introduces multiple optimizations to keep the latency low
-</p>
-
-<p>
-Simple queries that do not require reasoning, world knowledge, web access, or complex GIS operations won’t use LLMs.
+  - It introduces multiple optimizations to keep the latency low. Simple queries that do not require reasoning, world knowledge, web access, or complex GIS operations won’t use LLMs.
 </p>
 
 <h2>Limitations of Conventional Search Engines</h2>
