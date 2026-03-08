@@ -50,7 +50,7 @@ Search engines on property listing sites can typically answer only simple querie
  <ol>
  <li>The population density exceeds 10,000 people
  <li>The average household income is above ₹8 LPA
- <li>There are fewer than 2 large supermarkets or hypermarkets
+ <li>There are fewer than 2 large supermarkets
 </ol>
 
 <p>This image proves that this t-shirt is available on Flipkart.</p>
