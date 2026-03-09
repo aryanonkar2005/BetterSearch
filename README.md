@@ -1,46 +1,51 @@
 <h1 align="center">BetterSearch</h1>
 
 <p align="center">
-An LLM-driven search platform that extends the capabilities and addresses the limitations of conventional search systems being used by most e-commerce and property listing sites.
+An AI search platform that extends the capabilities and addresses the limitations of conventional search systems being used by most e-commerce and property listing sites.
 </p>
 <p align="center">
-BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency
+BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform geoprocessing operations and site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency
 </p>
 
 <h2>Key Features</h2>
 
 </p>
 
-1. It can understand human language and intent. It can provide relevant results for long and complex queries that traditional search engines fail to resolve. It allows users to attach images and files along with their search query.
+1. It can understand human language and intent, and can provide relevant results for long and complex queries that traditional search engines fail to resolve. It allows users to attach images and files along with their search query.  It can also surf the web to get access to up-to-date information/news/images that might be required to answer some queries.
+   
+2. Its search bar includes a button that opens a map where users can draw points, lines, and shapes in different colors along with their text search query. Users can also switch to map view, where relevant houses, businesses, or properties in search results are directly plotted on a map.
 
-2. It can perform long reasoning, calculations and script execution if necessary to answer the long and complex query. It can also surf the web to get access to up-to-date information/news/images that might be required to answer some queries.
-
-3. It can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay, network analysis, raster/vector processing etc.
+3. It can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay (intersect, union, clip, identity etc.), network analysis, raster/vector processing etc.
 
 4. It can conduct site suitability analysis using techniques like weighted overlay and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
 
-5. It has access to demographic data (from census and many other sources), elevation models, crime statistics, satellite imagery, flight routes etc. Since it's connected to Google Maps it has access to everything Google Maps can offer like travel time between two points with different mode of transport, coordinates, name, shape of perimeter and other details of local businesses, government establishments, streets, rivers etc.
+5. It has access to demographic data (from census and many other sources), elevation models, crime statistics, satellite imagery, flight routes etc. Since it's connected to Google Maps it has access to everything Google Maps can offer. It also has access to dynamic real-time data streams such as traffic conditions, weather updates, Air Quality Index (AQI), commercial and military flight coordinates etc.
 
-6. It has access to dynamic real-time data streams such as traffic conditions, weather updates, and Air Quality Index (AQI) etc.
+6. It enables users to search by describing a product’s visual features ensuring relevant results even when sellers haven’t included those details in the product description. Sellers rarely describe all minor and major visual features of their product in detail in the description.
 
-7. It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (that uses ANN search and OpenAI's CLIP model), ranking models etc.
+7. When a seller uploads product images, product title and description, BetterSearch analyzes them and generates a detailed description of the product. This eliminates the need for sellers to manually describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
 
-8. It enables users to search by describing a product’s visual features ensuring relevant results even when sellers haven’t included those details in the product description.
+8. Users can choose between **Instant mode** (quick results using the legacy architecture without LLMs), **Smart mode** (LLMs + spatial analysis for richer, more relevant results with slightly higher latency), and **Hybrid mode**, which first shows fast non-LLM results while more relevant results are being  generated by the new architecture that uses LLMs; when ready, users are prompted to switch to the improved results. **Auto mode** automatically selects the most suitable mode among the available options.
 
-9. It eliminates the need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web.
-
-10. It introduces multiple optimizations to keep latency low. Users can choose between **Instant mode** (quick results using the legacy architecture without LLMs), **Smart mode** (LLMs + spatial analysis for richer, more relevant results with slightly higher latency), and **Hybrid mode**, which first shows fast non-LLM results while more relevant results are generated the new architecture that uses LLMs; when ready, users are prompted to switch to the improved results. **Auto mode** automatically selects the most suitable mode among the available options.
+9. It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (that uses ANN search and OpenAI's CLIP model), ranking models etc.
 
 </p>
 
 <h2>Examples of Queries BetterSearch Can Resolve</h2>
 
 <ol>
-<li>Show all apartments inside the area I’ve marked on the attached map. Rank them based on proximity to the red dot marked on the map. All apartments must have a marble island in the kitchen.</li>
 
 <li>List rental properties under ₹20,000 in Hisar that are within 15 minutes of this building (5PCG+MW Hisar, Haryana), within 1 km of a hospital, but away from highways and busy roads. Rank them based on proximity to the building.</li>
 
 <li>मुझे एक dark green टी-शर्ट दिखाओ जिस पर white color की ink से “Wanted” लिखा हो।</li>
+
+<li>Rank laptops under ₹50,000 based on the sum of CPU and GPU benchmark scores listed on cpubenchmark.net.</li>
+
+<li>Show me some shirts under 2000 that look like the one I bought day before yesterday</li>
+
+<li>Show me a top whose shape is like the one in the 1st image but design is like the one in the second image or like the one this celeb wore in this video or on this event held on this date (info should be available on the web).</li>
+
+<li>Show all apartments inside the area I’ve marked on the map. Rank them based on proximity to the red dot marked on the map. All apartments must have a marble island in the kitchen.</li>
 
 <li>Find a 5,000–8,000 sq. ft. commercial property in Haryana that is listed on this property listing site and is suitable for opening a supermarket. Within a 10-minute drive-time isochrone:
  <ol>
@@ -56,7 +61,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 </p>
 
 <p>
-Flipkart failed to show the above t-shirt in search results and gave totally irrelevant results because its search system cannot properly understand natural human language. Additionally, sellers rarely describe clothing designs in detail, and Flipkart lacks the capability to interpret product images to match such queries.
+Flipkart failed to show the above t-shirt in search results and gave totally irrelevant results because its search system cannot properly understand natural human language. Additionally, sellers rarely describe clothing designs in detail in the product description, and Flipkart lacks the capability to analyze product images to match such queries.
  
 </p>
 
@@ -64,21 +69,25 @@ Flipkart failed to show the above t-shirt in search results and gave totally irr
 <img width="1900" height="801" alt="Screenshot 2026-03-06 162826" src="https://github.com/user-attachments/assets/5846b6ff-69b8-4060-9d12-2b205a1c5e4c" />
 </p>
 
-<h2>Limitations of Conventional Search Engines</h2>
+<h2>Misconceptions about BetterSearch</h2>
+
+1. BetterSearch doesn't use embedding models, ANN search or ranking algorithms being used by conventional and current SOTA search engines.
+2. BetterSearch scans each image in the database to find the most relevant one or that it feeds description of all products along with the search query into an LLM to find the most relevant ones.
+
+<h2>Problems with Conventional Search Engines</h2>
+
+1. They heavily rely on manually written product description and sellers rarely describe all minor and major visual features of their product in detail in the description. For example: Sellers offering T-shirts rarely say anything about the exact text printed on the shirt, the color of the text, or any background graphics behind the text.
+2. They assume that high embedding similarity score between query and product description always mean high relevance.
 
 <p>
-Conventional search engines that rely on ANN algorithms and models such as CLIP for candidate retrieval often produce irrelevant results because they assume that high embedding similarity directly implies high relevance. Two phrases may show a high embedding similarity score simply because they contain synonymous or closely related words. For example, the query “red jacket worn by Michael Jackson in the Thriller music video 1983” may rank “Men's Thriller Style Red Dance Jacket Halloween Costume Replica” highly due to shared terms, even though it isn’t the desired item. The actual desired product—“MJJ Productions Official Retro Leather Outfit MJT-1983 Limited Edition”—might receive a lower similarity score despite being the correct match. 
+Conventional search engines that rely on embedding models, ANN algorithms, and models such as CLIP for candidate retrieval often return irrelevant results, since a high embedding similarity score does not necessarily imply high relevance. Two phrases may show a high embedding similarity score simply because they contain synonymous or closely related words. For example, the query “red jacket worn by Michael Jackson in the Thriller music video 1983” may rank “Men's Thriller Style Red Dance Jacket Halloween Costume Replica” highly due to shared terms, even though it isn’t the desired item. The actual desired product—“MJJ Productions Official Retro Leather Outfit MJT-1983 Limited Edition”—might receive a lower similarity score despite being the correct match because embedding models can't reason and search the web like ChatGPT and Gemini. 
 </p>
 
 <p>
-Image embeddings behave similarly: two objects that look alike could be two completely different products. For instance, a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar. Multimodal models such as CLIP align images and text by similarity, but they still lack deeper reasoning. To reach the desired product Embedding Models and Approximate Nearest Neighbour algorithms aren't enough as they don't have reasoning capabilities.
+Image search feature in ecommerce sites often relies on embedding similarity, which returns images that are visually similar to input image provided by the user. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar. To reach the desired product Embedding Models and Approximate Nearest Neighbour algorithms aren't enough as they don't have reasoning capabilities.
 </p>
 
 <h2>Problems with Conventional Search Engines that BetterSearch Addresses</h2>
-
-<p>
-The image search feature offered by ecommerce sites can find products that look visually similar to the provided image but may not be the same object (Refer to the USB flash drive example in the above paragraph). They cannot handle textual search queries that require understanding all the details visible within images of products or properties listed on the platform. Conventional search engines rely heavily on product descriptions. If a t-shirt’s description doesn’t mention the phrase printed on it, a query like “Show me t-shirts with this specific phrase written on them” won’t return that t-shirt in the results. BetterSearch eliminates this need for sellers to describe product images. The seller only needs to provide details about the product that are not visible in the images and cannot be inferred from the web. Users can simply search by describing the product’s visual features.
-</p>
 
 <p>
 Search engines on property listing sites can typically answer only simple queries like “2 BHK in Hisar” or “Rental properties near the airport.” Resolving these queries does not require complex spatial reasoning or knowledge of demographics, geography, traffic, crime, AQI, etc. Conventional search engines can neither perform geoprocessing operations on spatial data nor conduct site suitability analysis to resolve complex spatial queries like the ones given below.
