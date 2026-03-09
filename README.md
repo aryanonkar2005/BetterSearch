@@ -87,10 +87,4 @@ Conventional search engines that rely on embedding models, ANN algorithms, and m
 
 <p>
 Image search feature in ecommerce sites often relies on embedding similarity, which returns images that are visually similar to input image provided by the user. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar. To reach the desired product Embedding Models and Approximate Nearest Neighbour algorithms aren't enough as they don't have reasoning capabilities.
-</p>
-
-<h2>Problems with Conventional Search Engines that BetterSearch Addresses</h2>
-
-<p>
-Search engines on property listing sites can typically answer only simple queries like “2 BHK in Hisar” or “Rental properties near the airport.” Resolving these queries does not require complex spatial reasoning or knowledge of demographics, geography, traffic, crime, AQI, etc. Conventional search engines can neither perform geoprocessing operations on spatial data nor conduct site suitability analysis to resolve complex spatial queries like the ones given below.
-</p>
+</p>>
