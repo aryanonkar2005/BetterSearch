@@ -98,4 +98,6 @@ Annual LLM Cost = 4,920 × 365 = $1,795,800<br>
 Net Benefit = 671,250,000 − 1,795,800 = $669,454,200<br>
 ROI = 669,454,200 / 1,795,800 ≈ 372.8×<br>
 <br><br>
-Even under pessimistic assumptions, adopting BetterSearch for complex queries could generate about $671M in additional revenue for Amazon at only ~$1.8M annual inference cost—yielding roughly a 373× ROI.
+Even under pessimistic assumptions, adopting BetterSearch for complex queries could generate about $671M in additional revenue for Amazon at only ~$1.8M annual inference cost—yielding roughly a 373× ROI. 
+LLM costs can be further reduced by limiting this feature to Prime users or customers with frequent or high-value purchases.
+Revenue can be increased by using LLM based better recommendations for prime users and customers with frequent or high value purchases.
