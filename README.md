@@ -43,7 +43,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 
 <li>Rank laptops under ₹50,000 based on the sum of CPU and GPU benchmark scores listed on cpubenchmark.net.</li>
 
-<li>Show me some shirts under 2000 that look like the one I bought day before yesterday</li>
+<li>Show me some shirts under 2000 that look like the one I bought yesterday.</li>
 
 <li>Show me a top whose shape is like the one in the 1st image but design is like the one in the second image or like the one this celeb wore in this video or on this event held on this date (info should be available on the web).</li>
 
