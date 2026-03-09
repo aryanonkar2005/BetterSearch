@@ -29,7 +29,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 
 9. It delivers significantly more relevant results by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (that uses ANN search and OpenAI's CLIP model), ranking models etc.
 
-10. It asks the seller multiple product relevant questions when he is listing the product to the website.
+10. It asks the seller multiple product relevant questions when he/she is listing a product to the website.
 
 </p>
 
