@@ -74,7 +74,7 @@ Flipkart failed to show the above t-shirt in search results and gave totally irr
 <h2>Problems with Conventional Search Engines</h2>
 
 1. They heavily rely on manually written product description and sellers rarely describe all minor and major visual features of their product in detail in the description. For example: Sellers offering T-shirts rarely say anything about the exact text printed on the shirt, the color of the text, or any background graphics behind the text.
-2. They assume that high embedding similarity score between query and product description always mean high relevance.
+2. They assume that high embedding similarity score always mean high relevance. This leads to irrelevant results.
 
 <p>
 Two phrases may show a high embedding similarity score simply because they contain synonymous or closely related words. For example, the query “red jacket worn by Michael Jackson in the Thriller music video 1983” may rank “Men's Thriller Style Red Dance Jacket Halloween Costume Replica” highly due to shared terms, even though it isn’t the desired item. The actual desired product—“MJJ Productions Official Retro Leather Outfit MJT-1983 Limited Edition”—might receive a lower similarity score despite being the correct match because embedding models can't reason and search the web like ChatGPT and Gemini. 
