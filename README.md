@@ -1,6 +1,10 @@
 <h1 align="center">BetterSearch</h1>
 
 <p align="center">
+   <img src="assets/icon.svg" width="220"/>
+</p>
+
+<p align="center">
 An AI search platform that extends the capabilities and addresses the limitations of conventional search systems being used by most e-commerce and property listing sites.
 </p>
 <p align="center">
