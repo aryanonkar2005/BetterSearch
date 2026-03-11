@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform geoprocessing operations, execute ArcGIS-style site suitability analysis and deliver more relevant results for long and complex queries, all while maintaining low latency.
+BetterSearch is an AI search engine designed to interpret long and complex search queries that can't be resolved by conventional search engines being used by ecommerce and property listing sites. It can understand human language and intent, perform geoprocessing operations and ArcGIS style site suitability analysis to answer search queries. 
 </p>
 
 <h2>Key Features</h2>
