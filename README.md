@@ -5,10 +5,7 @@
 </p>
 
 <p align="center">
-An AI search platform that extends the capabilities and addresses the limitations of conventional search systems being used by most e-commerce and property listing sites.
-</p>
-<p align="center">
-BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform geoprocessing operations and site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency
+BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform geoprocessing operations and site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency.
 </p>
 
 <h2>Key Features</h2>
