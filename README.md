@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform geoprocessing operations and site suitability analysis and deliver more relevant results for long and complex queries that require high reasoning, all while maintaining low latency.
+BetterSearch proposes a new architecture that enables search engines to reason, understand intent, interpret visual content, perform geoprocessing operations, execute ArcGIS-style site suitability analysis and deliver more relevant results for long and complex queries, all while maintaining low latency.
 </p>
 
 <h2>Key Features</h2>
