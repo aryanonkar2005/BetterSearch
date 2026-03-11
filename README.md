@@ -12,7 +12,7 @@ BetterSearch proposes a new architecture that enables search engines to reason, 
 
 </p>
 
-1. It can understand human language and intent, and can provide relevant results for long and complex queries that traditional search engines fail to resolve. It allows users to attach images and files along with their search query.  It can also surf the web to get access to up-to-date information/images that might be required to answer some queries.
+1. It can understand human language and intent, and can provide relevant results for long and complex queries that traditional search engines fail to resolve. It allows users to attach images and files along with their search query.  It can also surf the web to get access to up-to-date information/images that it might need to answer some queries.
    
 2. Its search bar includes a button that opens a map on which users can draw points, lines, and shapes in different colors along with their text search query. Users can choose to view search results on a map, with the properties and businesses from the results plotted on it.
 
