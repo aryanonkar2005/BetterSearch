@@ -94,7 +94,7 @@ Assumed Search-driven Purchases = 60% × $447.5B = $268.5B<br>
 Revenue Improvement from Better Search Relevance = 0.25% × $268.5B = $671.25M<br>
 <br>
 Daily Searches Estimate = 3 Billion / year ≈ 8.2M / day<br>
-Since LLM will be used for complex queries Only (30%) = 0.30 × 8.2M = 2.46M queries/day<br>
+Since LLMs will only be used for complex queries whose responses are not cached (30%) = 0.30 × 8.2M = 2.46M queries/day<br>
 LLM Cost per Query = $0.002<br>
 Daily LLM Cost = 2.46M × 0.002 = $4,920<br>
 Annual LLM Cost = 4,920 × 365 = $1,795,800<br>
@@ -102,5 +102,5 @@ Annual LLM Cost = 4,920 × 365 = $1,795,800<br>
 Net Benefit = 671,250,000 − 1,795,800 = $669,454,200<br>
 ROI = 669,454,200 / 1,795,800 ≈ 372.8×<br>
 <br><br>
-Even under pessimistic assumptions, adopting BetterSearch could generate about $671M in additional revenue for Amazon at only ~$1.8M annual inference cost—yielding roughly a 373× ROI.
-LLM costs can further be reduced by limiting this feature to Prime users or customers with frequent or high-value purchases.
+
+Even under pessimistic assumptions, adopting BetterSearch could generate about $671M in additional revenue for Amazon at only ~$1.8M annual inference cost—yielding roughly a 373× ROI. Realistic assumption can yield more than 500x ROI.
