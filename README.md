@@ -103,4 +103,4 @@ Net Benefit = 671,250,000 − 1,795,800 = $669,454,200<br>
 ROI = 669,454,200 / 1,795,800 ≈ 372.8×<br>
 <br><br>
 Even under pessimistic assumptions, adopting BetterSearch could generate about $671M in additional revenue for Amazon at only ~$1.8M annual inference cost—yielding roughly a 373× ROI. 
-LLM costs can be further reduced by limiting this feature to Prime users or customers with frequent or high-value purchases.
+LLM costs can further be reduced by limiting this feature to Prime users or customers with frequent or high-value purchases.
