@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-BetterSearch is an AI search engine designed to interpret long and complex search queries that can't be resolved by conventional search engines being used by ecommerce and property listing sites. It can understand human language and intent, perform geoprocessing operations and ArcGIS style site suitability analysis to answer search queries. 
+BetterSearch is an AI search engine designed to interpret long and complex search queries that can't be resolved by conventional search engines being used by ecommerce and property listing sites. It can understand human language and intent, search the web for information/images, perform geoprocessing operations and ArcGIS style site suitability analysis to answer search queries. It is connected to Google Maps and has access to demographic data (collected from census and other sources), real-time traffic data and location of commercial and some military aircrafts, etc. It also enables users to search by describing a product’s visual features ensuring relevant results even when sellers haven’t included those details in the product's description (Conventional search systems rely on manually written product description).
 </p>
 
 <h2>Key Features</h2>
