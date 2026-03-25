@@ -26,7 +26,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 
 9. It asks the seller multiple product relevant questions when he/she is listing a product onto the platform.
 
-10. It delivers significantly more relevant results without sacrificing speed by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (dense retrieval), ranking models etc. It does use embedding models, ANN and ranking algorithms being used by current SOTA search pipelines but with some architectural changes to reduce latency and eliminate issues like semantic dilution due to very long product descriptions (it occurs as a result of averaging the meaning of different sentences).
+**10. It delivers significantly more relevant results without sacrificing speed by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (dense retrieval), ranking models etc. It does use embedding models, ANN and ranking algorithms being used by current SOTA search pipelines but with some architectural changes to reduce latency and eliminate issues like semantic dilution due to very long product descriptions (it occurs as a result of averaging the meaning of different sentences).**
 
 </p>
 
@@ -60,7 +60,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 </p>
 
 <p>
-Flipkart failed to show the above t-shirt in search results and gave totally irrelevant results because its search system cannot properly understand natural human language. Additionally, sellers rarely describe clothing designs in detail in the product description, and Flipkart lacks the capability to analyze product images to match such queries.
+Flipkart failed to show the above t-shirt in search results and gave totally irrelevant results because its search system cannot properly understand natural human language. Additionally, sellers rarely describe clothing designs in detail in the product description.
  
 </p>
 
@@ -78,7 +78,7 @@ Two phrases may show a high embedding similarity score simply because they conta
 </p>
 
 <p>
-Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar. To reach the desired product Embedding Models and Approximate Nearest Neighbour algorithms aren't enough as they don't have reasoning capabilities.
+Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar.
 </p>
 
 <h2>Pessimistic Cost Benefit Analysis for Amazon</h2>
