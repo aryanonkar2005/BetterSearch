@@ -42,7 +42,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 
 <li>Show me some shirts under 2000 that look like the one I bought yesterday.</li>
 
-<li>Show me a top whose shape is like the one in the 1st image but design is like the one in the second image or like the one this celeb wore on this popular event.</li>
+<li>Show me a top whose shape is like the one in the 1st image but design is like the one in the second image or like the one this celeb wore on this popular event. (This query requires user to attach 3 images including the image of the event he/she is talking about)</li>
 
 <li>Show all apartments inside the area I’ve marked on the map. Rank them based on proximity to the red dot marked on the map. All apartments must have a marble island in the kitchen.</li>
 
