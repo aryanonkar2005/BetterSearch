@@ -101,4 +101,4 @@ Net Benefit = 537,000,000 − 292,000,000 = $245,000,000<br>
 ROI = 245,000,000 / 292,000,000 ≈ 0.84×<br>
 <br><br>
 
-Almost all CBAs converges on the conclusion that LLM-based search engines deliver strong economic value, as their costs are comparatively small relative to the revenue growth they can unlock.
+Almost all CBAs converge on the conclusion that LLM-based search engines deliver strong economic value, as their costs are comparatively small relative to the revenue growth they can unlock.
