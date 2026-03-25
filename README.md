@@ -83,16 +83,16 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h2>Cost Benefit Analysis for Amazon</h2>
 
-<b>Amazon Annual GMV ≈ $650B</b>
-<br> Assumed Search-driven Purchases = 65% × $650B = $422.5B </br>
+<b>Amazon Annual GMV ≈ $650B
+<br> Assumed Search-driven Purchases = 65% × $650B = $422.5B
 Better Search Relevance (conversion + AOV uplift) = 0.35% × $422.5B = $1.48B
-<br> Daily Searches Estimate ≈ 3.5 Billion / day </br>
+<br> Daily Searches Estimate ≈ 3.5 Billion / day
 LLMs used only for complex/high-intent uncached queries (15%) = 0.15 × 3.5B = 525M queries/day
-<br> Avg LLM Calls per Search = 1.5 → Total LLM Calls = 525M × 1.5 = 787.5M/day </br>
+<br> Avg LLM Calls per Search = 1.5 → Total LLM Calls = 525M × 1.5 = 787.5M/day
 LLM Cost per Query = $0.0006  
-<br> Daily LLM Cost = 787.5M × 0.0006 = $472,500 </br>
-<br> Annual LLM Cost = 472,500 × 365 ≈ $172,462,500 </br>
-<br> Net Benefit = $1,480,000,000 − $172,462,500 ≈ $1,307,537,500 </br>
-<br> ROI = 1,307,537,500 / 172,462,500 ≈ 7.6× </br>
+<br> Daily LLM Cost = 787.5M × 0.0006 = $472,500
+<br> Annual LLM Cost = 472,500 × 365 ≈ $172,462,500
+<br> Net Benefit = $1,480,000,000 − $172,462,500 ≈ $1,307,537,500
+<br> ROI = 1,307,537,500 / 172,462,500 ≈ 7.6×
 
 Almost all CBAs converge on the conclusion that LLM-based search engines deliver strong economic value, as their costs are comparatively small relative to the revenue growth they can unlock.
