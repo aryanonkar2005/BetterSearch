@@ -83,22 +83,16 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h2>Cost Benefit Analysis for Amazon</h2>
 
-<b>Amazon Annual GMV ≈ $447.5B</b><br>
-Source: <a href="https://www.marketplacepulse.com/articles/amazon-gmv-2023">Marketplace Pulse</a><br><br>
-Assumed Search-driven Purchases = 60% × $447.5B = $268.5B<br>
-Source: <a href="https://www.mckinsey.com/industries/retail/our-insights/the-future-of-search-in-ecommerce">McKinsey Report</a><br><br>
-Revenue Improvement from Better Search Relevance = 0.2% × $268.5B = $537M<br>
-<br>
-Daily Searches Estimate ≈ 2 Billion / day<br>
-Source: <a href="https://www.statista.com/statistics/266282/annual-net-revenue-of-amazoncom/">Statista (industry estimates)</a><br><br>
-LLMs used only for complex queries (20%) = 0.20 × 2B = 400M queries/day<br><br>
-Two LLM queries per search → Total LLM Calls = 400M × 2 = 800M/day<br><br>
-LLM Cost per Query = $0.001<br>
-Daily LLM Cost = 800M × 0.001 = $800,000<br>
-Annual LLM Cost = 800,000 × 365 = $292,000,000<br>
-<br>
-Net Benefit = 537,000,000 − 292,000,000 = $245,000,000<br>
-ROI = 245,000,000 / 292,000,000 ≈ 0.84×<br>
-<br><br>
+<b>Amazon Annual GMV ≈ $650B</b>
+<br> Assumed Search-driven Purchases = 65% × $650B = $422.5B </br>
+Better Search Relevance (conversion + AOV uplift) = 0.35% × $422.5B = $1.48B
+<br> Daily Searches Estimate ≈ 3.5 Billion / day </br>
+LLMs used only for complex/high-intent uncached queries (15%) = 0.15 × 3.5B = 525M queries/day
+<br> Avg LLM Calls per Search = 1.5 → Total LLM Calls = 525M × 1.5 = 787.5M/day </br>
+LLM Cost per Query = $0.0006  
+<br> Daily LLM Cost = 787.5M × 0.0006 = $472,500 </br>
+<br> Annual LLM Cost = 472,500 × 365 ≈ $172,462,500 </br>
+<br> Net Benefit = $1,480,000,000 − $172,462,500 ≈ $1,307,537,500 </br>
+<br> ROI = 1,307,537,500 / 172,462,500 ≈ 7.6× </br>
 
 Almost all CBAs converge on the conclusion that LLM-based search engines deliver strong economic value, as their costs are comparatively small relative to the revenue growth they can unlock.
