@@ -81,19 +81,24 @@ Two phrases may show a high embedding similarity score simply because they conta
 Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar.
 </p>
 
-<h2>Pessimistic Cost Benefit Analysis for Amazon</h2>
-Annual Ecommerce GMV ≈ $447.5B<br>
+<h2>Cost Benefit Analysis for Amazon</h2>
+
+<b>Amazon Annual GMV ≈ $447.5B</b><br>
+Source: <a href="https://www.marketplacepulse.com/articles/amazon-gmv-2023">Marketplace Pulse</a><br><br>
 Assumed Search-driven Purchases = 60% × $447.5B = $268.5B<br>
-Revenue Improvement from Better Search Relevance = 0.25% × $268.5B = $671.25M<br>
+Source: <a href="https://www.mckinsey.com/industries/retail/our-insights/the-future-of-search-in-ecommerce">McKinsey Report</a><br><br>
+Revenue Improvement from Better Search Relevance = 0.2% × $268.5B = $537M<br>
 <br>
-Daily Searches Estimate = 3 Billion / year ≈ 8.2M / day<br>
-Since LLMs will only be used for complex queries whose responses are not cached (30%) = 0.30 × 8.2M = 2.46M queries/day<br>
-LLM Cost per Query = $0.002<br>
-Daily LLM Cost = 2.46M × 0.002 = $4,920<br>
-Annual LLM Cost = 4,920 × 365 = $1,795,800<br>
+Daily Searches Estimate ≈ 2 Billion / day<br>
+Source: <a href="https://www.statista.com/statistics/266282/annual-net-revenue-of-amazoncom/">Statista (industry estimates)</a><br><br>
+LLMs used only for complex queries (20%) = 0.20 × 2B = 400M queries/day<br><br>
+Two LLM queries per search → Total LLM Calls = 400M × 2 = 800M/day<br><br>
+LLM Cost per Query = $0.001<br>
+Daily LLM Cost = 800M × 0.001 = $800,000<br>
+Annual LLM Cost = 800,000 × 365 = $292,000,000<br>
 <br>
-Net Benefit = 671,250,000 − 1,795,800 = $669,454,200<br>
-ROI = 669,454,200 / 1,795,800 ≈ 372.8×<br>
+Net Benefit = 537,000,000 − 292,000,000 = $245,000,000<br>
+ROI = 245,000,000 / 292,000,000 ≈ 0.84×<br>
 <br><br>
 
-Even under pessimistic assumptions, adopting BetterSearch could generate about $671M in additional revenue for Amazon at only ~$1.8M annual inference cost—yielding roughly a 373× ROI. Realistic assumption can yield more than 500x ROI.
+Almost all CBAs converges on the conclusion that LLM-based search engines deliver strong economic value, as their costs are comparatively small relative to the revenue growth they can unlock.
