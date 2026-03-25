@@ -10,7 +10,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 
 1. It can understand human language and intent, and can provide relevant results for long and complex queries that traditional search engines fail to resolve. It allows users to attach images and files along with their search query.  It can also surf the web to get access to up-to-date information/images that it might need to answer some queries.
    
-2. Its search bar includes a button that opens a map on which users can draw points, lines, and shapes in different colors along with their text search query. Users can choose to view search results plotted on a map.
+2. Its search bar includes a button that opens a map on which users can draw points, lines, and shapes in different colors along with their text search query. Users can choose to view search results on a map.
 
 3. It can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay (intersect, union, clip, identity etc.), network analysis, raster/vector processing etc.
 
