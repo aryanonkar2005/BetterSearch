@@ -180,5 +180,3 @@ Envive (search users contribute significant revenue share)
 Algolia E-commerce Search Statistics
 </a></li>
 </ul>
-
-ROI can be further enhanced by restricting LLM-based search to premium users, frequent buyers, and queries that involve high-margin products.
