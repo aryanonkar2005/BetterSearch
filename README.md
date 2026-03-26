@@ -157,7 +157,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Break-even conversion uplift:</b> ~0.15%</li>
 </ul>
 
-<br>Even under pessimistic assumptions (a 0.25% conversion uplift) and excluding long-term value and compounding effects, the benefits still outweigh the costs. ROI can further be increased by allowing only prime, frequent or high value customers to use LLMs. BetterSearch can be configured to use LLMs only for long and complex queries or queries that are looking for high margin products like expensive jwellery, electronics etc.</br>
+<br>Even under pessimistic assumptions (a 0.25% increase in GMV due to BetterSearch) and excluding long-term value and compounding effects, the benefits still outweigh the costs. ROI can further be increased by allowing only prime, frequent or high value customers to use LLMs. BetterSearch can be configured to use LLMs only for long and complex queries or queries that are looking for high margin products like expensive jwellery, electronics etc.</br>
 
 <h3>Sources</h3>
 <ul>
