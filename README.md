@@ -136,7 +136,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
       <li>Improved seller ROI → stronger marketplace supply</li>
     </ul>
   </li>
-  <li><b>Prime Ecosystem Reinforcement:</b>
+  <li><b>Amazon Prime Ecosystem Reinforcement:</b>
     <ul>
       <li>Enhanced experience for high-value users increases lock-in</li>
       <li>Supports subscription retention and upsell</li>
