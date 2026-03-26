@@ -81,12 +81,14 @@ Two phrases may show a high embedding similarity score simply because they conta
 Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar.
 </p>
 
+<h3> Cost Benefit Analysis for Amazon </h3>
+
 <h3>1) Key Assumptions </h3>
 <ul>
-  <li><b>Annual GMV (Amazon):</b> ~$600B</li>
+  <li><b>Amazon's Annual GMV:</b> ~$600B</li>
   <li><b>Share influenced by search:</b> ~55% → ~$330B</li>
   <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
-  <li><b>Targeted LLM usage cohort:</b> Prime users, high-frequency buyers, and high-AOV / high-margin intent queries</li>
+  <li><b>Targeted LLM usage cohort: Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch can also be used to resolve search queries are looking for high margin products</li>
   <li><b>% of GMV impacted by LLM (targeted rollout):</b> ~25% → ~$150B</li>
   <li><b>Higher baseline conversion for this cohort:</b> ~15–20%</li>
   <li><b>Realistic conversion uplift from LLM-assisted search:</b> +0.25%</li>
@@ -128,13 +130,6 @@ Image search feature in ecommerce sites converts the user’s input image into a
       <li>Improved satisfaction reduces churn, especially for Prime users</li>
       <li>Even +1% retention improvement can translate into hundreds of millions in long-term value</li>
       <li>Higher trust in search → Amazon becomes default shopping destination</li>
-    </ul>
-  </li>
-  <li><b>Basket Size (AOV) Increase:</b>
-    <ul>
-      <li>LLM-driven bundling and comparisons increase order value</li>
-      <li>Estimated +2–4% AOV uplift in assisted sessions</li>
-      <li>More premium product selection vs cheapest option bias</li>
     </ul>
   </li>
   <li><b>Ad Revenue Lift:</b>
