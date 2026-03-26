@@ -94,7 +94,6 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Contribution margin (final profit after fulfillment, customer service, ops etc.):</b> ~30–35%</li>
   <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
   <li><b>Effective % of queries requiring LLM:</b> ~2–3% (due to heavy targeting + caching)</li>
-  <li><b>LLM primarily used for:</b> comparison queries, high-intent discovery, bundle recommendations, and premium products</li>
 </ul>
 
 <h3>2) Costs </h3>
