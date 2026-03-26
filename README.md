@@ -105,7 +105,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Total tokens/day:</b> 62.5M × 1.3 × 600 ≈ 48.75B tokens</li>
   <li><b>Cost/day (@ $0.50 / 1M tokens):</b> ≈ $24,375</li>
   <li><b>Annual cost:</b> ≈ $8.9M</li>
-  <li><b>Infra efficiency gains:</b> batching, caching, and smaller models for most queries</li>
+  <li><b>Infra efficiency gains:</b> batching, caching, and different models for different queries</li>
   <li><b>AWS advantage:</b> no third-party API margin, better hardware utilization</li>
 </ul>
 
