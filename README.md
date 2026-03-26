@@ -26,7 +26,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 
 9. It asks the seller multiple product relevant questions when he/she is listing a product onto the platform.
 
-It delivers significantly more relevant results without adding significant delay by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (dense retrieval), ranking models etc. It does use embedding models, ANN and ranking algorithms being used by current SOTA search pipelines but with some architectural changes to reduce latency and eliminate issues like semantic dilution due to very long product descriptions (it occurs as a result of averaging the meaning of different sentences).
+It delivers significantly more relevant results without adding too much delay by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (dense retrieval), ranking models etc. It does use embedding models, ANN and ranking algorithms being used by current SOTA search pipelines but with some architectural changes to reduce latency and eliminate issues like semantic dilution due to very long product descriptions (it occurs as a result of averaging the meaning of different sentences).
 
 </p>
 
