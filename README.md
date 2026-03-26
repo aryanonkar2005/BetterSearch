@@ -84,38 +84,34 @@ Image search feature in ecommerce sites converts the user’s input image into a
 <h2> Cost Benefit Analysis for Amazon </h2>
 
 <ul>
-   <li><b>Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch will also be used to resolve search queries are looking for high margin products.</li>
-  <li><b>Amazon's Annual GMV:</b> ~$600B</li>
-  <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
-  <li><b>% of GMV by these high value customers and queries:</b> ~25% → ~$150B</li>
-  <li><b>Baseline conversion for these high value customers:</b> ~15–20%</li>
-  <li><b>Conversion uplift from LLM-assisted search:</b> +0.25%</li>
-  <li><b>Take rate (Amazon's fees):</b> ~14–16%</li>
-  <li><b>Contribution margin (final profit after fulfillment, customer service, ops etc.):</b> ~30–35%</li>
-  <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
-  <li><b>Effective % of queries requiring LLM:</b> ~2–3% (because of caching, access limited to high-value customers and no need of LLM for short and simple queries)</li>
+   <li><b>BetterSearch access:</b> Available to all users (no restriction to Prime or high-value customers)</li>
+   <li><b>Amazon's Annual GMV:</b> ~$600B</li>
+   <li><b>Baseline conversion rate (overall):</b> ~12–14%</li>
+   <li><b>LLM-assisted conversion uplift:</b> +0.25%</li>
+   <li><b>Take rate (Amazon's fees):</b> ~15%</li>
+   <li><b>Contribution margin:</b> ~30%</li>
+   <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.60 per 1M tokens</li>
+   <li><b>Effective % of queries requiring LLM:</b> ~10%</li>
 </ul>
 
 <h3>2) Costs </h3>
 <ul>
   <li><b>Daily searches:</b> ~2.5B</li>
-  <li><b>LLM-triggered queries (2.5%):</b> ~62.5M/day</li>
-  <li><b>Calls per query:</b> ~1.3 (optimized pipelines + retrieval)</li>
-  <li><b>Tokens per call:</b> ~600</li>
-  <li><b>Total tokens/day:</b> 62.5M × 1.3 × 600 ≈ 48.75B tokens</li>
-  <li><b>Cost/day (@ $0.50 / 1M tokens):</b> ≈ $24,375</li>
-  <li><b>Annual cost:</b> ≈ $8.9M</li>
-  <li><b>Ways in which costs can be reduced:</b> batching, caching, and different models for different queries</li>
-  <li><b>AWS advantage:</b> no third-party API margin, better hardware utilization</li>
+  <li><b>LLM-triggered queries (10%):</b> ~250M/day</li>
+  <li><b>Calls per query:</b> ~1.5</li>
+  <li><b>Tokens per call:</b> ~500</li>
+  <li><b>Total tokens/day:</b> 250M × 1.5 × 500 ≈ 187.5B tokens</li>
+  <li><b>Cost/day (@ $0.60 / 1M tokens):</b> ≈ $112,500</li>
+  <li><b>Annual cost:</b> ≈ $41M</li>
 </ul>
 
 <h3>3) Benefits </h3>
 <ul>
-  <li><b>LLM-impacted GMV:</b> ~$150B</li>
+  <li><b>LLM-impacted GMV:</b> ~$600B</li>
   <li><b>Conversion uplift:</b> +0.25%</li>
-  <li><b>Incremental GMV:</b> 150B × 0.25% ≈ $375M</li>
-  <li><b>Take rate of 15% (Amazon's fees):</b> ≈ $56M incremental revenue</li>
-  <li><b>Contribution margin of 32% (it is the final profit after fulfillment, customer service, ops etc.):</b> ≈ $18M incremental profit (32% of $56M)</li>
+  <li><b>Incremental GMV:</b> 600B × 0.25% ≈ $1.5B</li>
+  <li><b>Take rate of 15%:</b> ≈ $225M incremental revenue</li>
+  <li><b>Contribution margin of 30%:</b> ≈ $68M incremental profit</li>
 </ul>
 
 <h3>4) Other benefits not included in the calculations: (Compounding effects)</h3>
@@ -158,8 +154,8 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h3>5) ROI </h3>
 <ul>
-  <li><b>Direct profit vs cost:</b> ~$18M profit vs ~$9M cost → ~2.0x ROI</li>
-  <li><b>Break-even conversion uplift:</b> ~0.12–0.15%</li>
+  <li><b>Direct profit vs cost:</b> ~$68M profit vs ~$41M cost → ~1.7x ROI</li>
+  <li><b>Break-even conversion uplift:</b> ~0.15%</li>
 </ul>
 
 <br>Even under pessimistic assumptions (a 0.25% conversion uplift) and excluding long-term value and compounding effects, the benefits still outweigh the costs.</br>
