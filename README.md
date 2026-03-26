@@ -81,46 +81,97 @@ Two phrases may show a high embedding similarity score simply because they conta
 Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar.
 </p>
 
-<h2>Cost–Benefit Analysis for Amazon</h2>
+<h3>1) Key Assumptions </h3>
+<ul>
+  <li><b>Annual GMV (Amazon):</b> ~$600B</li>
+  <li><b>Share influenced by search:</b> ~55% → ~$330B</li>
+  <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
+  <li><b>Targeted LLM usage cohort:</b> Prime users, high-frequency buyers, and high-AOV / high-margin intent queries</li>
+  <li><b>% of GMV impacted by LLM (targeted rollout):</b> ~25% → ~$150B</li>
+  <li><b>Higher baseline conversion for this cohort:</b> ~15–20%</li>
+  <li><b>Realistic conversion uplift from LLM-assisted search:</b> +0.25%</li>
+  <li><b>Higher margin mix in targeted cohort:</b> electronics, private labels, sponsored products</li>
+  <li><b>Take rate (blended, higher for this cohort):</b> ~14–16%</li>
+  <li><b>Contribution margin (after fulfillment & ops):</b> ~30–35%</li>
+  <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
+  <li><b>Effective % of queries requiring LLM:</b> ~2–3% (due to heavy targeting + caching)</li>
+  <li><b>LLM primarily used for:</b> comparison queries, high-intent discovery, bundle recommendations, and premium products</li>
+</ul>
 
-<div style="border:1px solid #ddd; padding:16px; border-radius:8px; font-family:Arial, sans-serif;">
+<h3>2) Cost (Lower Due to Targeted Deployment)</h3>
+<ul>
+  <li><b>Daily searches:</b> ~2.5B</li>
+  <li><b>LLM-triggered queries (2.5%):</b> ~62.5M/day</li>
+  <li><b>Calls per query:</b> ~1.3 (optimized pipelines + retrieval)</li>
+  <li><b>Tokens per call:</b> ~600</li>
+  <li><b>Total tokens/day:</b> 62.5M × 1.3 × 600 ≈ 48.75B tokens</li>
+  <li><b>Cost/day (@ $0.50 / 1M tokens):</b> ≈ $24,375</li>
+  <li><b>Annual cost:</b> ≈ $8.9M</li>
+  <li><b>Infra efficiency gains:</b> batching, caching, and smaller models for most queries</li>
+  <li><b>AWS advantage:</b> no third-party API margin, better hardware utilization</li>
+</ul>
 
-  <h3>1) Key Assumptions</h3>
-  <ul>
-    <li><b>Daily searches:</b> ~2.5B</li>
-    <li><b>Complex queries hitting LLM (when no cached response is available):</b> 10% → 250M/day</li>
-    <li><b>LLM calls per query:</b> 2</li>
-    <li><b>Tokens per call:</b> 1,000</li>
-    <li><b>Cost:</b> ~$1 per 1M tokens (blended realistic cost)</li>
-  </ul>
+<h3>3) Benefit </h3>
+<ul>
+  <li><b>LLM-impacted GMV:</b> ~$150B</li>
+  <li><b>Conversion uplift:</b> +0.25%</li>
+  <li><b>Incremental GMV:</b> 150B × 0.25% ≈ $375M</li>
+  <li><b>Take rate (15%):</b> ≈ $56M incremental revenue</li>
+  <li><b>Contribution margin (after fulfillment & ops is 32%):</b> ≈ $18M incremental profit</li>
+</ul>
 
-  <h3>2) Cost</h3>
-  <pre style="background:#f6f6f6; padding:10px; border-radius:6px;">
-LLM calls/day = 250M × 2 = 500M
+<h3>4) Incremental Strategic Benefits (Compounding Effects)</h3>
+<ul>
+  <li><b>Higher Customer LTV:</b>
+    <ul>
+      <li>Better discovery increases repeat purchase frequency</li>
+      <li>Improved satisfaction reduces churn, especially for Prime users</li>
+      <li>Even +1% retention improvement can translate into hundreds of millions in long-term value</li>
+      <li>Higher trust in search → Amazon becomes default shopping destination</li>
+    </ul>
+  </li>
+  <li><b>Basket Size (AOV) Increase:</b>
+    <ul>
+      <li>LLM-driven bundling and comparisons increase order value</li>
+      <li>Estimated +2–4% AOV uplift in assisted sessions</li>
+      <li>More premium product selection vs cheapest option bias</li>
+    </ul>
+  </li>
+  <li><b>Ad Revenue Lift:</b>
+    <ul>
+      <li>Better understanding of products and intent → higher ad relevance</li>
+      <li>Improved CTR and conversion → higher CPC bids</li>
+      <li>Sponsored products integrated naturally into LLM responses</li>
+    </ul>
+  </li>
+  <li><b>Search Efficiency Gains:</b>
+    <ul>
+      <li>Fewer searches per purchase (higher efficiency)</li>
+      <li>Reduced bounce rates and abandoned sessions</li>
+      <li>Faster decision-making for complex purchases</li>
+    </ul>
+  </li>
+  <li><b>Marketplace Liquidity:</b>
+    <ul>
+      <li>Better exposure for long-tail (niche and low demand) and high-margin SKUs</li>
+      <li>Improved seller ROI → stronger marketplace supply</li>
+    </ul>
+  </li>
+  <li><b>Prime Ecosystem Reinforcement:</b>
+    <ul>
+      <li>Enhanced experience for high-value users increases lock-in</li>
+      <li>Supports subscription retention and upsell</li>
+    </ul>
+  </li>
+</ul>
 
-Tokens/day = 500M × 1,000 = 500B tokens
-
-Cost/day = 500B / 1M × $1 = $500,000
-Annual cost ≈ $182.5M
-  </pre>
-
-  <h3>3) Benefit & ROI</h3>
-  <pre style="background:#f6f6f6; padding:10px; border-radius:6px;">
-Assumptions:
-- GMV ≈ $600B
-- Search-driven purchases: 60% → $360B
-- Conversion uplift: +0.3%
-
-Incremental revenue:
-= 360B × 0.3% ≈ $1.08B
-
-ROI:
-= (1.08B - 182.5M) / 182.5M ≈ 4.9x
-
-Break-even uplift:
-≈ 0.05%
-  </pre>
-</div>
+<h3>5) ROI </h3>
+<ul>
+  <li><b>Direct profit vs cost:</b> ~$18M profit vs ~$9M cost → ~2.0x ROI</li>
+  <li><b>Including LTV, ads, and AOV effects:</b> ROI realistically 3x–6x over time</li>
+  <li><b>Break-even conversion uplift:</b> ~0.12–0.15%</li>
+  <li><b>Key insight:</b> Targeting high-value segments significantly improves ROI vs blanket deployment</li>
+</ul>
 
 <h3>Sources</h3>
 <ul>
@@ -135,5 +186,4 @@ Algolia E-commerce Search Statistics
 </a></li>
 </ul>
 
-Even with pessimistic assumptions, the advantages of an LLM-based search far outweigh the costs.
 ROI can be further enhanced by restricting LLM-based search to premium users, frequent buyers, and queries that involve high-margin products.
