@@ -97,7 +97,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>LLM primarily used for:</b> comparison queries, high-intent discovery, bundle recommendations, and premium products</li>
 </ul>
 
-<h3>2) Cost (Lower Due to Targeted Deployment)</h3>
+<h3>2) Costs </h3>
 <ul>
   <li><b>Daily searches:</b> ~2.5B</li>
   <li><b>LLM-triggered queries (2.5%):</b> ~62.5M/day</li>
@@ -110,7 +110,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>AWS advantage:</b> no third-party API margin, better hardware utilization</li>
 </ul>
 
-<h3>3) Benefit </h3>
+<h3>3) Benefits </h3>
 <ul>
   <li><b>LLM-impacted GMV:</b> ~$150B</li>
   <li><b>Conversion uplift:</b> +0.25%</li>
@@ -121,7 +121,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h3>4) Incremental Strategic Benefits (Compounding Effects)</h3>
 <ul>
-  <li><b>Higher Customer LTV:</b>
+  <li><b>Higher Customer Life Time Value:</b>
     <ul>
       <li>Better discovery increases repeat purchase frequency</li>
       <li>Improved satisfaction reduces churn, especially for Prime users</li>
@@ -136,16 +136,9 @@ Image search feature in ecommerce sites converts the user’s input image into a
       <li>Sponsored products integrated naturally into LLM responses</li>
     </ul>
   </li>
-  <li><b>Search Efficiency Gains:</b>
-    <ul>
-      <li>Fewer searches per purchase (higher efficiency)</li>
-      <li>Reduced bounce rates and abandoned sessions</li>
-      <li>Faster decision-making for complex purchases</li>
-    </ul>
-  </li>
   <li><b>Marketplace Liquidity:</b>
     <ul>
-      <li>Better exposure for long-tail (niche and low demand) and high-margin SKUs</li>
+      <li>Better visibility for long-tail (niche) and high-margin SKUs</li>
       <li>Improved seller ROI → stronger marketplace supply</li>
     </ul>
   </li>
@@ -153,6 +146,13 @@ Image search feature in ecommerce sites converts the user’s input image into a
     <ul>
       <li>Enhanced experience for high-value users increases lock-in</li>
       <li>Supports subscription retention and upsell</li>
+    </ul>
+  </li>
+  <li><b>Search Efficiency Gains:</b>
+    <ul>
+      <li>Fewer searches per purchase (higher efficiency)</li>
+      <li>Reduced bounce rates and abandoned sessions</li>
+      <li>Faster decision-making for complex purchases</li>
     </ul>
   </li>
 </ul>
