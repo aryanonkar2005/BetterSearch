@@ -83,18 +83,6 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h2>📊 Cost–Benefit Analysis for Amazon</h2>
 
-<ul>
-   <li><a href="https://www.nosto.com/blog/ecommerce-site-search-statistics/" target="_blank">
-Nosto Research
-</a></li>
-   <li><a href="https://www.envive.ai/post/ecommerce-site-search-conversion-statistics" target="_blank">
-Envive (search users contribute significant revenue share)
-</a></li>
-   <li><a href="https://www.algolia.com/blog/ecommerce/e-commerce-search-and-kpis-statistics/" target="_blank">
-Algolia E-commerce Search Statistics
-</a></li>
-</ul>
-
 <div style="border:1px solid #ddd; padding:16px; border-radius:8px; font-family:Arial, sans-serif;">
 
   <h3>1) Key Assumptions</h3>
@@ -118,7 +106,7 @@ Annual cost ≈ $182.5M
 
   <h3>3) Benefit & ROI</h3>
   <pre style="background:#f6f6f6; padding:10px; border-radius:6px;">
-Assume:
+Assumptions:
 - GMV ≈ $600B
 - Search-driven purchases: 60% → $360B
 - Conversion uplift: +0.3%
@@ -132,8 +120,20 @@ ROI:
 Break-even uplift:
 ≈ 0.05%
   </pre>
-
 </div>
+
+<h3>Sources</h3>
+<ul>
+   <li><a href="https://www.nosto.com/blog/ecommerce-site-search-statistics/" target="_blank">
+Nosto Research
+</a></li>
+   <li><a href="https://www.envive.ai/post/ecommerce-site-search-conversion-statistics" target="_blank">
+Envive (search users contribute significant revenue share)
+</a></li>
+   <li><a href="https://www.algolia.com/blog/ecommerce/e-commerce-search-and-kpis-statistics/" target="_blank">
+Algolia E-commerce Search Statistics
+</a></li>
+</ul>
 
 Even with pessimistic assumptions, the advantages of an LLM-based search far outweigh the costs.
 ROI can be further enhanced by restricting LLM-based search to premium users, frequent buyers, and queries that involve high-margin products.
