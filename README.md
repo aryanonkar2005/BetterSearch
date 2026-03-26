@@ -90,8 +90,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Targeted LLM usage cohort: Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch can also be used to resolve search queries are looking for high margin products</li>
   <li><b>% of GMV by these high value customers:</b> ~25% → ~$150B</li>
   <li><b>Baseline conversion for this cohort:</b> ~15–20%</li>
-  <li><b>Realistic conversion uplift from LLM-assisted search:</b> +0.25%</li>
-  <li><b>Higher margin mix in targeted cohort:</b> electronics, private labels, sponsored products</li>
+  <li><b>Conversion uplift from LLM-assisted search:</b> +0.25%</li>
   <li><b>Take rate (blended, higher for this cohort):</b> ~14–16%</li>
   <li><b>Contribution margin (after fulfillment & ops):</b> ~30–35%</li>
   <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
