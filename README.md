@@ -83,16 +83,13 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h3> Cost Benefit Analysis for Amazon </h3>
 
-<h3>1) Key Assumptions </h3>
 <ul>
   <li><b>Amazon's Annual GMV:</b> ~$600B</li>
   <li><b>Share influenced by search:</b> ~55% → ~$330B</li>
   <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
   <li><b>Targeted LLM usage cohort: Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch can also be used to resolve search queries are looking for high margin products</li>
-  <li><b>% of GMV impacted by LLM (targeted rollout):</b> ~25% → ~$150B</li>
-  <li><b>Higher baseline conversion for this cohort:</b> ~15–20%</li>
+  <li><b>Baseline conversion for this cohort:</b> ~15–20%</li>
   <li><b>Realistic conversion uplift from LLM-assisted search:</b> +0.25%</li>
-  <li><b>Higher margin mix in targeted cohort:</b> electronics, private labels, sponsored products</li>
   <li><b>Take rate (blended, higher for this cohort):</b> ~14–16%</li>
   <li><b>Contribution margin (after fulfillment & ops):</b> ~30–35%</li>
   <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
@@ -115,11 +112,11 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h3>3) Benefit </h3>
 <ul>
-  <li><b>LLM-impacted GMV:</b> ~$150B</li>
+  <li><b>LLM-impacted GMV:</b> ~$360B</li>
   <li><b>Conversion uplift:</b> +0.25%</li>
-  <li><b>Incremental GMV:</b> 150B × 0.25% ≈ $375M</li>
-  <li><b>Take rate (15%):</b> ≈ $56M incremental revenue</li>
-  <li><b>Contribution margin (after fulfillment & ops is 32%):</b> ≈ $18M incremental profit</li>
+  <li><b>Incremental GMV:</b> 360B × 0.25% ≈ $900M</li>
+  <li><b>Take rate (15%):</b> ≈ $135M incremental revenue</li>
+  <li><b>Contribution margin (after fulfillment & ops is 32%):</b> ≈ $43.2M incremental profit</li>
 </ul>
 
 <h3>4) Incremental Strategic Benefits (Compounding Effects)</h3>
@@ -162,7 +159,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h3>5) ROI </h3>
 <ul>
-  <li><b>Direct profit vs cost:</b> ~$18M profit vs ~$9M cost → ~2.0x ROI</li>
+  <li><b>Direct profit vs cost:</b> ~$43.2M profit vs ~$9M cost → ~4.8x ROI</li>
   <li><b>Including LTV, ads, and AOV effects:</b> ROI realistically 3x–6x over time</li>
   <li><b>Break-even conversion uplift:</b> ~0.12–0.15%</li>
   <li><b>Key insight:</b> Targeting high-value segments significantly improves ROI vs blanket deployment</li>
