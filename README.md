@@ -14,7 +14,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 
 3. It can perform advanced spatial analysis and geoprocessing operations such as buffering, overlay (intersect, union, clip, identity etc.), network analysis, raster/vector processing etc.
 
-4. It can conduct site suitability analysis using techniques like weighted overlay and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
+4. It can conduct site suitability analysis using techniques like MCDA and many more to evaluate and rank potential locations based on multiple spatial factors and constraints.
 
 5. It has access to demographic data (from census and many other sources), elevation models, crime statistics, satellite imagery, flight routes etc. Since it's connected to Google Maps it has access to everything Google Maps can offer. It also has access to dynamic real-time data streams such as traffic conditions, weather updates, Air Quality Index (AQI), commercial and military flight coordinates etc. It also allows users to plugin their own spatial dataset or raster images.
 
@@ -26,7 +26,7 @@ BetterSearch is an AI search platform designed to interpret long and complex sea
 
 9. It asks the seller multiple product relevant questions when he/she is listing a product onto the platform.
 
-**10. It delivers significantly more relevant results without adding significant delay by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (dense retrieval), ranking models etc. It does use embedding models, ANN and ranking algorithms being used by current SOTA search pipelines but with some architectural changes to reduce latency and eliminate issues like semantic dilution due to very long product descriptions (it occurs as a result of averaging the meaning of different sentences).**
+It delivers significantly more relevant results without adding significant delay by proposing a better architecture that addresses the limitations of embedding based candidate retrieval (dense retrieval), ranking models etc. It does use embedding models, ANN and ranking algorithms being used by current SOTA search pipelines but with some architectural changes to reduce latency and eliminate issues like semantic dilution due to very long product descriptions (it occurs as a result of averaging the meaning of different sentences).
 
 </p>
 
@@ -81,18 +81,59 @@ Two phrases may show a high embedding similarity score simply because they conta
 Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar.
 </p>
 
-<h2>Cost Benefit Analysis for Amazon</h2>
+<h2>📊 Cost–Benefit Analysis for Amazon</h2>
 
-<b>Amazon Annual GMV ≈ $650B</b>
-<br> Assumed Search-driven Purchases = 65% × $650B = $422.5B </br>
-Better Search Relevance (conversion + AOV uplift) = 0.35% × $422.5B = $1.48B
-<br> Daily Searches Estimate ≈ 3.5 Billion / day </br>
-LLMs used only for complex/high-intent uncached queries (15%) = 0.15 × 3.5B = 525M queries/day
-<br> Avg LLM Calls per Search = 1.5 → Total LLM Calls = 525M × 1.5 = 787.5M/day </br>
-LLM Cost per Query (blended, optimized inference) = $0.0006  
-<br> Daily LLM Cost = 787.5M × 0.0006 = $472,500 </br>
-<br> Annual LLM Cost = 472,500 × 365 ≈ $172,462,500 </br>
-<br> Net Benefit = $1,480,000,000 − $172,462,500 ≈ $1,307,537,500 </br>
-<br> ROI = 1,307,537,500 / 172,462,500 ≈ 7.6× </br>
+<ul>
+   <li><a href="https://www.nosto.com/blog/ecommerce-site-search-statistics/" target="_blank">
+Nosto Research
+</a></li>
+   <li><a href="https://www.envive.ai/post/ecommerce-site-search-conversion-statistics" target="_blank">
+Envive (search users contribute significant revenue share)
+</a></li>
+   <li><a href="https://www.algolia.com/blog/ecommerce/e-commerce-search-and-kpis-statistics/" target="_blank">
+Algolia E-commerce Search Statistics
+</a></li>
+</ul>
 
-Almost all CBAs converge on the conclusion that LLM-based search engines deliver strong economic value, as their costs are comparatively small relative to the revenue growth they can unlock.
+<div style="border:1px solid #ddd; padding:16px; border-radius:8px; font-family:Arial, sans-serif;">
+
+  <h3>1) Key Assumptions</h3>
+  <ul>
+    <li><b>Daily searches:</b> ~2.5B</li>
+    <li><b>Complex queries hitting LLM (when no cached response is available):</b> 10% → 250M/day</li>
+    <li><b>LLM calls per query:</b> 2</li>
+    <li><b>Tokens per call:</b> 1,000</li>
+    <li><b>Cost:</b> ~$1 per 1M tokens (blended realistic cost)</li>
+  </ul>
+
+  <h3>2) Cost</h3>
+  <pre style="background:#f6f6f6; padding:10px; border-radius:6px;">
+LLM calls/day = 250M × 2 = 500M
+
+Tokens/day = 500M × 1,000 = 500B tokens
+
+Cost/day = 500B / 1M × $1 = $500,000
+Annual cost ≈ $182.5M
+  </pre>
+
+  <h3>3) Benefit & ROI</h3>
+  <pre style="background:#f6f6f6; padding:10px; border-radius:6px;">
+Assume:
+- GMV ≈ $600B
+- Search-driven purchases: 60% → $360B
+- Conversion uplift: +0.3%
+
+Incremental revenue:
+= 360B × 0.3% ≈ $1.08B
+
+ROI:
+= (1.08B - 182.5M) / 182.5M ≈ 4.9x
+
+Break-even uplift:
+≈ 0.05%
+  </pre>
+
+</div>
+
+Even with pessimistic assumptions, the advantages of an LLM-based search far outweigh the costs.
+ROI can be further enhanced by restricting LLM-based search to premium users, frequent buyers, and queries that involve high-margin products.
