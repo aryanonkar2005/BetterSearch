@@ -91,7 +91,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Baseline conversion for this cohort:</b> ~15–20%</li>
   <li><b>Conversion uplift from LLM-assisted search:</b> +0.25%</li>
   <li><b>Take rate (Amazon's fees):</b> ~14–16%</li>
-  <li><b>Contribution margin (profit after fulfillment, customer service, ops etc.):</b> ~30–35%</li>
+  <li><b>Contribution margin (final profit after fulfillment, customer service, ops etc.):</b> ~30–35%</li>
   <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
   <li><b>Effective % of queries requiring LLM:</b> ~2–3% (due to heavy targeting + caching)</li>
   <li><b>LLM primarily used for:</b> comparison queries, high-intent discovery, bundle recommendations, and premium products</li>
@@ -115,7 +115,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>LLM-impacted GMV:</b> ~$150B</li>
   <li><b>Conversion uplift:</b> +0.25%</li>
   <li><b>Incremental GMV:</b> 150B × 0.25% ≈ $375M</li>
-  <li><b>Take rate of 15% (Amazon's fee):</b> ≈ $56M incremental revenue</li>
+  <li><b>Take rate of 15% (Amazon's fees):</b> ≈ $56M incremental revenue</li>
   <li><b>Contribution margin of 32% (it is the final profit after fulfillment, customer service, ops etc.):</b> ≈ $18M incremental profit (32% of $56M)</li>
 </ul>
 
