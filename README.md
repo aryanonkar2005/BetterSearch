@@ -88,7 +88,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Share influenced by search:</b> ~60% → ~$360B</li>
   <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
   <li><b>Targeted LLM usage cohort: Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch can also be used to resolve search queries are looking for high margin products</li>
-  <li><b>% of GMV by this prime, frequent and high value customer:</b> ~25% → ~$150B</li>
+  <li><b>% of GMV by these high value customers:</b> ~25% → ~$150B</li>
   <li><b>Baseline conversion for this cohort:</b> ~15–20%</li>
   <li><b>Realistic conversion uplift from LLM-assisted search:</b> +0.25%</li>
   <li><b>Higher margin mix in targeted cohort:</b> electronics, private labels, sponsored products</li>
