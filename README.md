@@ -93,7 +93,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Take rate (Amazon's fees):</b> ~14–16%</li>
   <li><b>Contribution margin (final profit after fulfillment, customer service, ops etc.):</b> ~30–35%</li>
   <li><b>Blended LLM infra cost (AWS advantage):</b> ~$0.40–$0.70 per 1M tokens</li>
-  <li><b>Effective % of queries requiring LLM:</b> ~2–3% (as LLMs are only available to prime/frequent customer and also due to caching)</li>
+  <li><b>Effective % of queries requiring LLM:</b> ~2–3% (as LLMs are only available to high-value customers and also due to caching)</li>
 </ul>
 
 <h3>2) Costs </h3>
