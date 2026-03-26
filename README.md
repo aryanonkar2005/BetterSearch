@@ -123,7 +123,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
       <li>Higher trust in search → Amazon becomes default shopping destination</li>
     </ul>
   </li>
-  <li><b>Ad Revenue Lift:</b>
+  <li><b>Increase in Ad Revenue:</b>
     <ul>
       <li>Better understanding of products and intent → higher ad relevance</li>
       <li>Improved CTR and conversion → higher CPC bids</li>
