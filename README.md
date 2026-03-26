@@ -81,7 +81,7 @@ Two phrases may show a high embedding similarity score simply because they conta
 Image search feature in ecommerce sites converts the user’s input image into an embedding vector and then retrieves other images whose embeddings are closest to it using an ANN algorithm, returning products that look visually similar to the uploaded image. However, these results may represent different products that the user is not actually looking for. For example: an input image containing a USB flash drive shaped like a key may retrieve actual metal keys, because their shapes are visually similar.
 </p>
 
-<h2>📊 Cost–Benefit Analysis for Amazon</h2>
+<h2>Cost–Benefit Analysis for Amazon</h2>
 
 <div style="border:1px solid #ddd; padding:16px; border-radius:8px; font-family:Arial, sans-serif;">
 
