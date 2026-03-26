@@ -84,7 +84,6 @@ Image search feature in ecommerce sites converts the user’s input image into a
 <h2> Cost Benefit Analysis for Amazon </h2>
 
 <ul>
-   <li><b>BetterSearch access:</b> Available to all users (no restriction to Prime or high-value customers)</li>
    <li><b>Amazon's Annual GMV:</b> ~$600B</li>
    <li><b>Baseline conversion rate (overall):</b> ~12–14%</li>
    <li><b>LLM-assisted conversion uplift:</b> +0.25%</li>
@@ -158,7 +157,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Break-even conversion uplift:</b> ~0.15%</li>
 </ul>
 
-<br>Even under pessimistic assumptions (a 0.25% conversion uplift) and excluding long-term value and compounding effects, the benefits still outweigh the costs.</br>
+<br>Even under pessimistic assumptions (a 0.25% conversion uplift) and excluding long-term value and compounding effects, the benefits still outweigh the costs. ROI can further be increased by allowing only prime, frequent or high value customers to use LLMs. BetterSearch can be configured to use LLMs only for long and complex queries or queries that are looking for high margin products like expensive jwellery, electronics etc.</br>
 
 <h3>Sources</h3>
 <ul>
