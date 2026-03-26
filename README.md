@@ -85,7 +85,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
 <h3>2) Assumptions </h3>
 <ul>
    <li><b>Amazon's Annual GMV:</b> ~$600B</li>
-   <li><b>Baseline conversion rate (overall):</b> ~12–14%</li>
+   <li><b>Baseline conversion rate:</b> ~12–14%</li>
    <li><b>Estimated increase in GMV due to LLMs:</b> +0.25%</li>
    <li><b>Take rate (Amazon's fees):</b> ~15%</li>
    <li><b>Contribution margin (final profit after cost of fulfillment, customer service, ops etc. are deducted):</b> ~30% of revenue from platform fees</li>
@@ -107,9 +107,9 @@ Image search feature in ecommerce sites converts the user’s input image into a
 <h3>3) Benefits </h3>
 <ul>
   <li><b>Amazon's annual GMV:</b> ~$600B</li>
-  <li><b>% Increase in GMV due to LLM:</b> +0.25%</li>
-  <li><b>Increase in GMV:</b> 600B × 0.25% ≈ $1.5B</li>
-  <li><b>Take rate of 15% (Amazon's fees):</b> ≈ $225M extra revenue</li>
+  <li><b>Estimated % Increase in GMV due to BetterSearch:</b> +0.25%</li>
+  <li><b>Estimated Increase in GMV due to BetterSearch:</b> 600B × 0.25% ≈ $1.5B</li>
+  <li><b>Take rate of 15% (Amazon's fees):</b> ≈ 15% of 1.5B = $225M</li>
   <li><b>Contribution margin of 30% (final profit after cost of fulfillment, customer service, ops etc. are deducted):</b> ≈ 30% of $225M ≈ $68M extra profit</li>
 </ul>
 
