@@ -85,7 +85,6 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <ul>
   <li><b>Amazon's Annual GMV:</b> ~$600B</li>
-  <li><b>Share influenced by search:</b> ~60% → ~$360B</li>
   <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
   <li><b>Targeted LLM usage cohort: Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch can also be used to resolve search queries are looking for high margin products</li>
   <li><b>% of GMV by these high value customers:</b> ~25% → ~$150B</li>
@@ -163,7 +162,6 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Direct profit vs cost:</b> ~$18M profit vs ~$9M cost → ~2.0x ROI</li>
   <li><b>Including LTV, ads, and AOV effects:</b> ROI realistically 3x–6x over time</li>
   <li><b>Break-even conversion uplift:</b> ~0.12–0.15%</li>
-  <li><b>Key insight:</b> Targeting high-value segments significantly improves ROI vs blanket deployment</li>
 </ul>
 
 <h3>Sources</h3>
