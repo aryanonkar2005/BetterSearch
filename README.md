@@ -82,7 +82,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
 </p>
 
 <h2> Cost Benefit Analysis for Amazon </h2>
-
+<h3>2) Assumptions </h3>
 <ul>
    <li><b>Amazon's Annual GMV:</b> ~$600B</li>
    <li><b>Baseline conversion rate (overall):</b> ~12–14%</li>
@@ -96,8 +96,8 @@ Image search feature in ecommerce sites converts the user’s input image into a
 <h3>2) Costs </h3>
 <ul>
   <li><b>Daily searches:</b> ~2.5B</li>
-  <li><b>LLM-triggered queries (10%):</b> ~250M/day</li>
-  <li><b>Calls per query:</b> ~1.5</li>
+  <li><b>Long and complex queries that need LLMs (when cached response is not available) (10%):</b> ~250M/day</li>
+  <li><b>LLM calls per query:</b> ~1.5</li>
   <li><b>Tokens per call:</b> ~500</li>
   <li><b>Total tokens/day:</b> 250M × 1.5 × 500 ≈ 187.5B tokens</li>
   <li><b>Cost/day (@ $0.60 / 1M tokens):</b> ≈ $112,500</li>
@@ -106,11 +106,11 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <h3>3) Benefits </h3>
 <ul>
-  <li><b>LLM-impacted GMV:</b> ~$600B</li>
-  <li><b>Conversion uplift:</b> +0.25%</li>
+  <li><b>Amazon's annual GMV:</b> ~$600B</li>
+  <li><b>Increase in conversion rate due to LLM:</b> +0.25%</li>
   <li><b>Incremental GMV:</b> 600B × 0.25% ≈ $1.5B</li>
-  <li><b>Take rate of 15%:</b> ≈ $225M incremental revenue</li>
-  <li><b>Contribution margin of 30%:</b> ≈ $68M incremental profit</li>
+  <li><b>Take rate of 15% (Amazon's fees):</b> ≈ $225M incremental revenue</li>
+  <li><b>Contribution margin of 30% (final profit after cost of fulfillment, customer service, ops etc.):</b> ≈ 30% of $225M ≈ $68M incremental profit</li>
 </ul>
 
 <h3>4) Other benefits not included in the calculations: (Compounding effects)</h3>
