@@ -85,7 +85,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
 
 <ul>
   <li><b>Amazon's Annual GMV:</b> ~$600B</li>
-  <li><b>Share influenced by search:</b> ~55% → ~$330B</li>
+  <li><b>Share influenced by search:</b> ~60% → ~$360B</li>
   <li><b>Baseline conversion rate (e-commerce typical):</b> ~10–15%</li>
   <li><b>Targeted LLM usage cohort: Only Prime users and high-frequency or high value buyers will have access to BetterSearch. BetterSearch can also be used to resolve search queries are looking for high margin products</li>
   <li><b>Baseline conversion for this cohort:</b> ~15–20%</li>
