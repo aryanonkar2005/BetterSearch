@@ -160,9 +160,10 @@ Image search feature in ecommerce sites converts the user’s input image into a
 <h3>5) ROI </h3>
 <ul>
   <li><b>Direct profit vs cost:</b> ~$18M profit vs ~$9M cost → ~2.0x ROI</li>
-  <li><b>Including LTV, ads, and AOV effects:</b> ROI realistically 3x–6x over time</li>
   <li><b>Break-even conversion uplift:</b> ~0.12–0.15%</li>
 </ul>
+
+<br>Even under pessimistic assumptions (a 0.25% conversion uplift) and excluding long-term value and compounding effects, the benefits still outweigh the costs.</br>
 
 <h3>Sources</h3>
 <ul>
