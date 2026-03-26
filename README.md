@@ -119,7 +119,7 @@ Image search feature in ecommerce sites converts the user’s input image into a
   <li><b>Contribution margin (after fulfillment & ops is 32%):</b> ≈ $18M incremental profit</li>
 </ul>
 
-<h3>4) Incremental Strategic Benefits (Compounding Effects)</h3>
+<h3>4) Other benefits not included in the calculations: (Compounding effects)</h3>
 <ul>
   <li><b>Higher Customer Life Time Value:</b>
     <ul>
